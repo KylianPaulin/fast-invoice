@@ -1,6 +1,6 @@
 "use strict";
 
-const FastInvoice = require("../lib");
+const FastInvoice = require("../src");
 
 // Create the new invoice
 let myInvoice = new FastInvoice({

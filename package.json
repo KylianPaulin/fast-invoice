@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "Forked from https://github.com/baptistejamin/node-microinvoice",
   "homepage": "https://github.com/KylianPaulin/fast-invoice",
-  "main": "lib/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "directories": {
     "lib": "lib"
   },
@@ -19,7 +25,8 @@
     "node": ">= 6.4.0"
   },
   "scripts": {
-    "test": "check-build"
+    "test": "check-build",
+    "build": "npx tsup src/index.js --format cjs, esm --dts --clean"
   },
   "author": {
     "name": "Kylian Paulin",
@@ -34,9 +41,11 @@
   "dependencies": {
     "lodash.merge": "4.6.2",
     "pdfkit": "0.12.3",
-    "transliteration": "2.2.0"
+    "transliteration": "2.2.0",
+    "tsup": "^8.3.6"
   },
   "devDependencies": {
-    "check-build": "2.8.2"
+    "check-build": "2.8.2",
+    "typescript": "^5.7.3"
   }
 }
