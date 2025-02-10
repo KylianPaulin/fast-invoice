@@ -1,13 +1,20 @@
 {
     "compilerOptions": {
-      "target": "ES2017",
-      "module": "ESNext",
-      "moduleResolution": "node",
+      "lib": ["ES2024"],
+      "target": "ES2024",
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "outDir": "./lib/",
+      "declarationDir": "./lib/types",
       "strict": true,
       "esModuleInterop": true,
-      "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
-      "outDir": "./dist"
+      "skipLibCheck": true,
+      "checkJs": true,
+      "allowJs": true,
+      "declaration": true,
+      "declarationMap": true,
+      "allowSyntheticDefaultImports": true
     },
-    "include": ["tsup.config.ts"]
+    "files": ["./src/index.ts"]
   }
