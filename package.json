@@ -1,8 +1,8 @@
 {
-  "name": "microinvoice",
-  "version": "1.0.6",
-  "description": "Fast & elegant PDF invoice generator for Node using PDFKit. No Puppeteer",
-  "homepage": "https://github.com/baptistejamin/node-microinvoice",
+  "name": "fast-invoice",
+  "version": "1.0.0",
+  "description": "Forked from https://github.com/baptistejamin/node-microinvoice",
+  "homepage": "https://github.com/KylianPaulin/fast-invoice",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/baptistejamin/node-microinvoice.git"
+    "url": "git://github.com/KylianPaulin/fast-invoice.git"
   },
   "bugs": {
-    "url": "https://github.com/baptistejamin/node-microinvoice/issues"
+    "url": "https://github.com/KylianPaulin/fast-invoice/issues"
   },
   "engines": {
     "node": ">= 6.4.0"
@@ -22,9 +22,9 @@
     "test": "check-build"
   },
   "author": {
-    "name": "Baptiste Jamin",
-    "email": "baptiste@crisp.chat",
-    "url": "https://crisp.chat/"
+    "name": "Kylian Paulin",
+    "email": "kylian@leando.tech",
+    "url": "https://leando.tech"
   },
   "keywords": [
     "invoice",
