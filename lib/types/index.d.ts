@@ -216,7 +216,7 @@ export default class FastInvoice {
     generate(output: string | {
         path: string;
         type: "file";
-    } | PDFKit.PDFDocument): PDFKit.PDFDocument | Promise<void>;
+    } | PDFKit.PDFDocument): Promise<void | PDFKit.PDFDocument>;
 }
 export {};
 //# sourceMappingURL=index.d.ts.map

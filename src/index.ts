@@ -774,7 +774,7 @@ export default class FastInvoice {
    * @param  {string|object} output
    * @return Promise
    */
-  generate(
+  async generate(
     output: string | { path: string; type: "file" } | PDFKit.PDFDocument
   ) {
     let _stream: fs.WriteStream | null = null;

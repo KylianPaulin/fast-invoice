@@ -1,6 +1,6 @@
 {
   "name": "fastinvoice",
-  "version": "1.0.20",
+  "version": "1.5.1",
   "description": "Forked from https://github.com/baptistejamin/node-microinvoice",
   "homepage": "https://github.com/KylianPaulin/fast-invoice",
   "main": "./lib/index.js",
